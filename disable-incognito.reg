@@ -1,0 +1,54 @@
+Windows Registry Editor Version 5.00
+; By @xsyanic on GitHub :)
+
+; ===== Google Chrome =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"IncognitoModeAvailability"=dword:00000001
+
+; ===== Chromium (generic base) =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
+"IncognitoModeAvailability"=dword:00000001
+
+; ===== Brave =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\BraveSoftware\Brave]
+"IncognitoModeAvailability"=dword:00000001
+
+; ===== Microsoft Edge =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"InPrivateModeAvailability"=dword:00000001
+
+; ===== Opera =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Opera Software\Opera]
+"PrivateModeAvailability"=dword:00000001
+
+; ===== Vivaldi =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Vivaldi]
+"IncognitoModeAvailability"=dword:00000001
+
+; ===== Yandex Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\YandexBrowser]
+"IncognitoModeAvailability"=dword:00000001
+
+; ===== Epic Privacy Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Epic Privacy Browser]
+"IncognitoModeAvailability"=dword:00000001
+
+; ===== Slimjet =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Slimjet]
+"IncognitoModeAvailability"=dword:00000001
+
+; ===== Comodo Dragon =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\ComodoDragon]
+"IncognitoModeAvailability"=dword:00000001
+
+; ===== SRWare Iron =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
+"IncognitoModeAvailability"=dword:00000001
+
+; ===== Avast Secure Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\AVAST Software\Browser]
+"IncognitoModeAvailability"=dword:00000001
+
+; ===== AVG Secure Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\AVG\Browser]
+"IncognitoModeAvailability"=dword:00000001
