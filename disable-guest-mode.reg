@@ -1,0 +1,51 @@
+Windows Registry Editor Version 5.00
+; Guest Mode Disable for Browsers Script by @xsyanic on GitHub :)
+; https://github.com/xsyanic/disable-incognito-regedit
+
+; ===== Google Chrome =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"BrowserGuestModeEnabled"=dword:00000000
+
+; ===== Microsoft Edge =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"BrowserGuestModeEnabled"=dword:00000000
+
+; ===== Brave =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\BraveSoftware\Brave]
+"BrowserGuestModeEnabled"=dword:00000000
+
+; ===== Chromium (generic base) =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
+"BrowserGuestModeEnabled"=dword:00000000
+
+; ===== Opera =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Opera Software\Opera]
+"BrowserGuestModeEnabled"=dword:00000000
+
+; ===== Vivaldi =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Vivaldi]
+"BrowserGuestModeEnabled"=dword:00000000
+
+; ===== Yandex Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\YandexBrowser]
+"BrowserGuestModeEnabled"=dword:00000000
+
+; ===== Slimjet =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Slimjet]
+"BrowserGuestModeEnabled"=dword:00000000
+
+; ===== Comodo Dragon =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Comodo\Dragon]
+"BrowserGuestModeEnabled"=dword:00000000
+
+; ===== SRWare Iron =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\SRWare Iron]
+"BrowserGuestModeEnabled"=dword:00000000
+
+; ===== Avast Secure Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Avast Software\Browser]
+"BrowserGuestModeEnabled"=dword:00000000
+
+; ===== AVG Secure Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\AVG\Browser]
+"BrowserGuestModeEnabled"=dword:00000000
