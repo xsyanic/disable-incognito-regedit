@@ -1,0 +1,52 @@
+Windows Registry Editor Version 5.00
+; Force Google SafeSearch for Browsers Script by @xsyanic on GitHub :)
+; NOTE: Only works for Google Search, some browsers might not work
+; https://github.com/xsyanic/disable-incognito-regedit
+
+; ===== Google Chrome =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"ForceGoogleSafeSearch"=dword:00000001
+
+; ===== Microsoft Edge =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"ForceGoogleSafeSearch"=dword:00000001
+
+; ===== Brave =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\BraveSoftware\Brave]
+"ForceGoogleSafeSearch"=dword:00000001
+
+; ===== Chromium (generic base) =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
+"ForceGoogleSafeSearch"=dword:00000001
+
+; ===== Opera =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Opera Software\Opera]
+"ForceGoogleSafeSearch"=dword:00000001
+
+; ===== Vivaldi =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Vivaldi]
+"ForceGoogleSafeSearch"=dword:00000001
+
+; ===== Yandex Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\YandexBrowser]
+"ForceGoogleSafeSearch"=dword:00000001
+
+; ===== Slimjet =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Slimjet]
+"ForceGoogleSafeSearch"=dword:00000001
+
+; ===== Comodo Dragon =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Comodo\Dragon]
+"ForceGoogleSafeSearch"=dword:00000001
+
+; ===== SRWare Iron =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\SRWare Iron]
+"ForceGoogleSafeSearch"=dword:00000001
+
+; ===== Avast Secure Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Avast Software\Browser]
+"ForceGoogleSafeSearch"=dword:00000001
+
+; ===== AVG Secure Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\AVG\Browser]
+"ForceGoogleSafeSearch"=dword:00000001
