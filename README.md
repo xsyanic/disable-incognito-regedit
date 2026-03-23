@@ -1,35 +1,41 @@
-# Disable Incognito / Private Mode
+# Browser Restrictions (Registery files)
 
-Disables private browsing in major Chromium-based browsers via Windows policy.
+Simple `.reg` files to enforce browser restrictions using Windows policies.
+
+## Files
+
+* **disable-incognito.reg**
+  Disables Incognito / Private mode in Chromium-based browsers.
+
+* **google-safe-search.reg**
+  Forces Google SafeSearch (strict). Does not affect YouTube.
+
+* **disable-guest-mode.reg**
+  Removes Guest browsing option.
 
 ## Supported Browsers
-- Google Chrome  
-- Chromium  
-- Brave  
-- Microsoft Edge  
-- Opera  
-- Vivaldi  
-- Yandex Browser  
-- Epic Privacy Browser  
-- Slimjet  
-- Comodo Dragon  
-- SRWare Iron  
-- Avast Secure Browser  
-- AVG Secure Browser
-- (you can add more by forking the repo and creating commit request)
+
+Chrome, Chromium, Brave, Edge, Opera, Vivaldi, Yandex, Epic, Slimjet, Comodo Dragon, SRWare Iron, Avast Secure Browser, AVG Secure Browser
+
+## Exceptions
+
+* Firefox (uses different policy system)
+* Tor Browser
+* Non-Chromium browsers
+* Portable / modified builds (may ignore policies)
 
 ## Usage
-1. Save as `.reg`
-2. Run as Administrator
-3. Restart browsers
 
-## Values
-- `0` → Enabled  
-- `1` → Disabled  
-- `2` → Forced incognito  
+1. Double-click `.reg` file
+2. Accept prompt
+3. Restart browser
 
-## Revert
-Set values to `0` or delete keys.
+(Admin required)
 
-## Note
-Not foolproof (portable browsers, etc.)
+## Notes
+
+* Works system-wide
+* Harder to bypass than DNS
+* No undo included (revert manually)
+
+---
