@@ -49,3 +49,7 @@ Windows Registry Editor Version 5.00
 ; ===== AVG Secure Browser =====
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\AVG\Browser]
 "BrowserGuestModeEnabled"=dword:00000000
+
+; ===== Helium Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Helium]
+"BrowserGuestModeEnabled"=dword:00000000

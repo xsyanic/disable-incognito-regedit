@@ -15,7 +15,7 @@ Simple `.reg` files to enforce browser restrictions using Windows policies.
 
 ## Supported Browsers
 
-Chrome, Chromium, Brave, Edge, Opera, Vivaldi, Yandex, Epic, Slimjet, Comodo Dragon, SRWare Iron, Avast Secure Browser, AVG Secure Browser
+Chrome, Chromium, Brave, Edge, Opera, Vivaldi, Yandex, Epic, Slimjet, Comodo Dragon, SRWare Iron, Avast Secure Browser, AVG Secure Browser, Helium Browser
 
 ## Exceptions
 

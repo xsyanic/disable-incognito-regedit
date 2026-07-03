@@ -53,3 +53,7 @@ Windows Registry Editor Version 5.00
 ; ===== AVG Secure Browser =====
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\AVG\Browser]
 "IncognitoModeAvailability"=dword:00000001
+
+; ===== Helium Browser =====
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Helium]
+"IncognitoModeAvailability"=dword:00000001
